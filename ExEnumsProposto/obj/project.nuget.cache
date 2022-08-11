@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "R29mGbckNPBpbU58IQ34pt8lO3804c77ZMjupXVe6K6ioxKMAxtubJtNJ7HspphpZp8SGTlplT/qzwvdiPSGdw==",
+  "success": true,
+  "projectFilePath": "D:\\Desktop\\Csharp\\ExEnumsProposto\\ExEnumsProposto\\ExEnumsProposto.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\renat\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}
