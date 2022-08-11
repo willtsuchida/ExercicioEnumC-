@@ -1,0 +1,16 @@
+D:\Desktop\Csharp\ExEnumsProposto\ExEnumsProposto\bin\Debug\net5.0\ExEnumsProposto.exe
+D:\Desktop\Csharp\ExEnumsProposto\ExEnumsProposto\bin\Debug\net5.0\ExEnumsProposto.deps.json
+D:\Desktop\Csharp\ExEnumsProposto\ExEnumsProposto\bin\Debug\net5.0\ExEnumsProposto.runtimeconfig.json
+D:\Desktop\Csharp\ExEnumsProposto\ExEnumsProposto\bin\Debug\net5.0\ExEnumsProposto.runtimeconfig.dev.json
+D:\Desktop\Csharp\ExEnumsProposto\ExEnumsProposto\bin\Debug\net5.0\ExEnumsProposto.dll
+D:\Desktop\Csharp\ExEnumsProposto\ExEnumsProposto\bin\Debug\net5.0\ExEnumsProposto.pdb
+D:\Desktop\Csharp\ExEnumsProposto\ExEnumsProposto\obj\Debug\net5.0\ExEnumsProposto.csproj.AssemblyReference.cache
+D:\Desktop\Csharp\ExEnumsProposto\ExEnumsProposto\obj\Debug\net5.0\ExEnumsProposto.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\Csharp\ExEnumsProposto\ExEnumsProposto\obj\Debug\net5.0\ExEnumsProposto.AssemblyInfoInputs.cache
+D:\Desktop\Csharp\ExEnumsProposto\ExEnumsProposto\obj\Debug\net5.0\ExEnumsProposto.AssemblyInfo.cs
+D:\Desktop\Csharp\ExEnumsProposto\ExEnumsProposto\obj\Debug\net5.0\ExEnumsProposto.csproj.CoreCompileInputs.cache
+D:\Desktop\Csharp\ExEnumsProposto\ExEnumsProposto\obj\Debug\net5.0\ExEnumsProposto.dll
+D:\Desktop\Csharp\ExEnumsProposto\ExEnumsProposto\obj\Debug\net5.0\refint\ExEnumsProposto.dll
+D:\Desktop\Csharp\ExEnumsProposto\ExEnumsProposto\obj\Debug\net5.0\ExEnumsProposto.pdb
+D:\Desktop\Csharp\ExEnumsProposto\ExEnumsProposto\obj\Debug\net5.0\ExEnumsProposto.genruntimeconfig.cache
+D:\Desktop\Csharp\ExEnumsProposto\ExEnumsProposto\obj\Debug\net5.0\ref\ExEnumsProposto.dll

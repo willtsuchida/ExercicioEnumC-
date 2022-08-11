@@ -20,11 +20,13 @@ namespace ExEnumsProposto.Entities
         {
             Quantity = quantity;
             Price = price;
+            //Product = new Product();
         }
 
         public double SubTotal()
         {
             return Price * Quantity;
         }
+                
     }
 }

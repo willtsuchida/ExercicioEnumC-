@@ -22,5 +22,14 @@ namespace ExEnumsProposto.Entities
             Email = email;
             BirthDate = birthDate;
         }
+
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine(Name);
+            sb.AppendLine(Email);
+            sb.AppendLine(BirthDate.ToString("dd/MM/yyyy"));
+            return sb.ToString();
+        }
     }
 }

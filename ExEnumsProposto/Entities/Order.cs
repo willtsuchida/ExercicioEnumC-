@@ -10,7 +10,7 @@ namespace ExEnumsProposto.Entities
 {
     internal class Order
     {
-        public DateTime Date { get; set; }
+        public DateTime Moment { get; set; }
         public OrderStatus Status { get; set; }
         public OrdemItem OrdemItem { get; set; }
         public Client Client { get; set; }
@@ -20,9 +20,12 @@ namespace ExEnumsProposto.Entities
 
         }
 
-        public Order(DateTime date)
+        public Order(DateTime moment, OrderStatus status)
         {
-            Date = date;
+            Moment = moment;
+            Status = status;
+
+
         }
 
         public void AddItem(OrdemItem items)
@@ -41,6 +44,14 @@ namespace ExEnumsProposto.Entities
                 sum += OrdemItem.SubTotal();
             }
             return sum;
-        }   
+        }
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine("Oder moment: " + Moment.ToString("dd/MM/yyyy hh:mm:ss"));
+            sb.AppendLine("Order status: " + Status.ToString());
+            return sb.ToString();
+        }
+
     }
 }

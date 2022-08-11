@@ -15,9 +15,9 @@ namespace ExEnumsProposto.Entities
         {
 
         }
-        public Product(string name, double price)
+        public Product(string productName, double price)
         {
-            Name = name;
+            Name = productName;
             Price = price;
         }
     }
