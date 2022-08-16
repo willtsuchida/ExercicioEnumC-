@@ -20,14 +20,12 @@ namespace ExEnumsProposto.Entities
 
         }
 
-        public Order(DateTime moment, OrderStatus status)
+        public Order(DateTime moment, OrderStatus status, Client client)
         {
             Moment = moment;
             Status = status;
-
-
+            Client = client; // nao tinha colocado isso, olhado na revisao
         }
-
         public void AddItem(OrdemItem items)
         {
             Items.Add(items);
@@ -41,7 +39,7 @@ namespace ExEnumsProposto.Entities
             double sum = 0.0;
             foreach (OrdemItem item in Items)
             {
-                sum += OrdemItem.SubTotal();
+                sum += item.SubTotal();
             }
             return sum;
         }
@@ -49,7 +47,14 @@ namespace ExEnumsProposto.Entities
         {
             StringBuilder sb = new StringBuilder();
             sb.AppendLine("Oder moment: " + Moment.ToString("dd/MM/yyyy hh:mm:ss"));
-            sb.AppendLine("Order status: " + Status.ToString());
+            sb.Append("Order status: " + Status);
+            sb.Append("Client: " + Client);
+            sb.AppendLine("Order items:");
+            foreach(OrdemItem item in Items)
+            {
+                sb.AppendLine(item.ToString());
+            }
+            sb.AppendLine("Total price: $" + Total().ToString("F2"));
             return sb.ToString();
         }
 

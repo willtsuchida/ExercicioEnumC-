@@ -16,17 +16,29 @@ namespace ExEnumsProposto.Entities
         {
 
         }
-        public OrdemItem(int quantity, double price)
+        public OrdemItem(int quantity, double price, Product product)
         {
             Quantity = quantity;
             Price = price;
-            //Product = new Product();
+            Product = product; // nao tinha colocado...
         }
 
         public double SubTotal()
         {
             return Price * Quantity;
         }
-                
+
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.Append(Product.Name);
+            sb.Append(", $");
+            sb.Append(Price);
+            sb.Append(", Quantity: ");
+            sb.Append(Quantity);
+            sb.Append(", Subtotal: $");
+            sb.Append(SubTotal().ToString("F2"));
+            return sb.ToString();
+        }
     }
 }

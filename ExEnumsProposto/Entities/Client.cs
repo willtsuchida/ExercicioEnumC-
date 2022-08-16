@@ -11,7 +11,6 @@ namespace ExEnumsProposto.Entities
         public string Name { get; set; }
         public string Email { get; set; }
         public DateTime BirthDate { get; set; }
-
         public Client()
         {
 
@@ -26,9 +25,7 @@ namespace ExEnumsProposto.Entities
         public override string ToString()
         {
             StringBuilder sb = new StringBuilder();
-            sb.AppendLine(Name);
-            sb.AppendLine(Email);
-            sb.AppendLine(BirthDate.ToString("dd/MM/yyyy"));
+            sb.AppendLine(Name + ", (" + BirthDate.ToString("dd/MM/yyyy") + ") - " + Email);            
             return sb.ToString();
         }
     }

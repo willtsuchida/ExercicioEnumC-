@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace ExEnumsProposto.Entities.Enums
 {
-      enum OrderStatus
+      enum OrderStatus : int
     {
         Pending_Payment = 0,
         Processing = 1,
         Shipped = 2,
         Delivered = 3
-
     }
 }
